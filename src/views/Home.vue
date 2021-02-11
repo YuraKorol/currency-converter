@@ -7,7 +7,7 @@
       justify="center"
     >
       <CurrencyListFrom />
-      <SwipeBtn />
+      <SwapBtn />
       <CurrencyListTo />
     </v-row>
     <v-row
@@ -21,11 +21,11 @@
 </template>
 
 <script>
-import CurrencyListFrom from "@/components/currencyEntry/CurrencyListFrom.vue";
-import CurrencyListTo from "@/components/currencyEntry/CurrencyListTo.vue";
-import SwipeBtn from "@/components/currencyEntry/SwipeBtn.vue";
-import AmountFrom from "@/components/currencyEntry/AmountFrom.vue";
-import AmountTo from "@/components/currencyEntry/AmountTo.vue";
+import CurrencyListFrom from "@/components/currencyPanel/CurrencyListFrom.vue";
+import CurrencyListTo from "@/components/currencyPanel/CurrencyListTo.vue";
+import SwapBtn from "@/components/currencyPanel/SwapBtn.vue";
+import AmountFrom from "@/components/currencyPanel/AmountFrom.vue";
+import AmountTo from "@/components/currencyPanel/AmountTo.vue";
 import { mapActions } from "vuex";
 
 export default {
@@ -40,7 +40,7 @@ export default {
   components: {
     CurrencyListFrom,
     CurrencyListTo,
-    SwipeBtn,
+    SwapBtn,
     AmountFrom,
     AmountTo
   }
